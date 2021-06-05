@@ -15,6 +15,11 @@ git clone https://github.com/akelpetin/cv-examples.git
 cd cv-examples && composer install
 ```
 
+#### Start docker container
+```
+docker compose up -d
+```
+
 #### create database tables
 ```
 vendor/bin/doctrine orm:schema-tool:update --force
